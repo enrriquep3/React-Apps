@@ -2,7 +2,9 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
 const pageOne = () => {
-  return <div>PageOne</div>;
+  return <div>
+      PageOne
+      </div>;
 };
 const pageTwo = () => {
   return <div>Pagetwo
@@ -15,7 +17,6 @@ const App = () => {
     <div>
       <BrowserRouter>
         <div>
-         <Route path="/" exact component={pageOne} />
           <Route path="/" exact component={pageOne} />
           <Route path="/pagetwo" component={pageTwo} />
         </div>
