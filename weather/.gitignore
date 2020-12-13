@@ -7,3 +7,5 @@ webpack.config.js
 # IntelliJ
 *.iml
 /.idea
+
+.vercel
