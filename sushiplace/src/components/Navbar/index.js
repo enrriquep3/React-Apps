@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <>
            <Nav>
-              <NavLink to="/">Sushi</NavLink> 
+              <NavLink to="/"> Mr. Sushi Express</NavLink> 
               <NavIcon>
               <p>Menu</p>
               <Bars />
