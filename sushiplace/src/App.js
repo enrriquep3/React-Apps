@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Products from "./components/Products";
 import { productData, productDataTwo } from './components/Products/data';
 import Feature from "./components/Feature";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Products heading=' Your favorite Japanese restaurant. Dine in, Pick up or Delivery' data={productData}/>
     <Feature />
     <Products heading='Enjoy our Sweet Treats' data={productDataTwo}/>
+    <Footer />
     </Router>
   );
 }
