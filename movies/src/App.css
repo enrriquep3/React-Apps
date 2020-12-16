@@ -1,20 +1,55 @@
 .inputBar{
-    margin-top: 5;
-    margin-left: 25;
-    width: 90%;
-    font-size: 24;
-    display: block;
-    padding-top: 8;
-    padding-bottom: 8;
+  margin-left: 25%;
+  border-radius:10px;
+  width:50%;
+  display: block;
+  align-items: center;
+  padding:20px;
+  box-shadow:0 0 10px 4px #e72f2fe8;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+}
+.maintable{
+  background-color: white;
+  background-origin: padding-box;
+  justify-items: center;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow:0 0 10px 4px #e72f2fe8;
   
 }
+
+
+.maintable:nth-child(even) {background-color: #e72f2fe8;}
+
 .titleBar {
-  background: #222780;
-  display: block;
+  background: #e72f2fe8;
+  display: flex;
   color: #fff;
-  padding-left: 16px;
+  text-align: center;
+  justify-content: center;
+} @media only screen and (max-width: 600px) {
+  .titleBar {
+    width: 122%;
+  }
 }
 
+.button{
+  padding: 14px 40px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
+.button:hover {
+  background-color: #e72f2fe8;
+  color: white;
+  box-shadow: 0 4px 8px 0 #e72f2fe8, 0 6px 20px 0 #e72f2fe8;
+}
 
 .App-logo {
   height: 40vmin;
