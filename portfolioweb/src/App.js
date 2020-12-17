@@ -22,9 +22,9 @@ class App extends React.Component {
         { title: "Contact", path: "/contact" },
       ],
       home: {
-        title: "Be Amazing",
-        subTitle: "Projects that make the different",
-        text: "check out my projects below",
+        title: "Web Developer.",
+        subTitle: "I  like to build Interactive, Beautiful and Modern websites and apps.  ",
+        text: "Check out my projects",
       },
       about: {
         title: "About me",
@@ -38,7 +38,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar className="border-bottom" bg="secondary" expand="lg">
             <Navbar.Brand>Enrrique Pimentel</Navbar.Brand>
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
