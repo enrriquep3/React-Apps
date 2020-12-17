@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import SocialFollow from "./components/SocialMedia";
 
 
 class App extends React.Component {
@@ -40,6 +41,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="secondary" expand="lg">
             <Navbar.Brand>Enrrique Pimentel</Navbar.Brand>
+            <SocialFollow  className="social" />
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
