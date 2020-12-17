@@ -15,7 +15,7 @@ return (
            Enrrique Pimentel
            </Col>
            <Col className="p-0 d-flex justify-content-end" md={3}>
-               this site was made by Enrrique Pimentel
+               this  was made by Enrrique Pimentel
            </Col>
             </Row>
         </Container>
