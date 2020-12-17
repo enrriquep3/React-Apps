@@ -15,28 +15,34 @@ const Charts = ({ data: { confirmed, recovered, deaths }, country }) => {
     fetchAPI();
   }, []);
 
-  const lineChart = dailyData !== undefined ? (
-    <Line
-      data={{
-        labels: dailyData.map(({ date }) => date),
-        datasets: [
-          {
-            data: dailyData.map(({ confirmed }) => confirmed),
-            label: "Infected",
-            borderColor: "blue",
+  const lineChart = (
+    dailyData[0] ? (
+      <Line
+        data={{
+          labels: dailyData.map(({ date }) => new Date(date).toLocaleDateString()),
+          datasets: [{
+            data: dailyData.map((data) => data.confirmed),
+            label: 'Infected',
+            borderColor: '#3333ff',
+            fill: true,
+          }, {
+            data: dailyData.map((data) => data.deaths),
+            label: 'Deaths',
+            borderColor: 'red',
+            backgroundColor: 'rgba(255, 0, 0, 0.5)',
+            fill: true,
+          },  {
+            data: dailyData.map((data) => data.recovered),
+            label: 'Recovered',
+            borderColor: 'green',
+            backgroundColor: 'rgba(0, 255, 0, 0.5)',
             fill: true,
           },
-          {
-            data: dailyData.map(({ deaths }) => deaths),
-            label: "Deaths",
-            borderColor: "red",
-            backgroundColor: "rgb(73, 0, 0)",
-            fill: true,
-          },
-        ],
-      }}
-    />
-  ) : null;
+          ],
+        }}
+      />
+    ) : null
+  );
 
 
   const barChart = confirmed ? (
