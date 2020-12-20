@@ -1,6 +1,6 @@
 <h1>Sushi Place</h1>
 
-<h2>This is a sushi restaurant website with menu, offers, and social-contact page./h2>
+<h2>This is a sushi restaurant website with menu, offers, and social-contact page. </h2>
 
 <h1>Deployment</h1>
 <p>Go online to https://sushiplace-v1.vercel.app/ see menu, contact page and order online <p>
