@@ -1,0 +1,10 @@
+.ui.segment {
+    background-color: red;
+}
+
+.label{
+    font-size:xx-large;
+    align-content: center;
+    text-align: center;
+    display: block;
+}
