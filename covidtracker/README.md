@@ -2,7 +2,7 @@
 
 <h1>Covid-19 Tracker</h1>
 
-<h2>This app shows real time data of Covid-19 cases, recoveries and deaths sorted by country/h2>
+<h2>This app shows real time data of Covid-19 cases, recoveries and deaths sorted by country </h2>
 
 <h1>Deployment</h1>
 <p>Go online to https://covid-tracker-indol-delta.vercel.app/ see line and bar charts of real time data by each country <p>
